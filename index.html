@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <div id="buttons-container">
+        <button id="against-player">2 jogadores</button>
+        <button id="against-ia">Contra Máquina</button>
+    </div>
+    <div id="container" class="hide">
+        <div class="main-game">
+            <div class="box" id="block-1"></div>
+            <div class="box" id="block-2"></div>
+            <div class="box" id="block-3"></div>
+            <div class="box" id="block-4"></div>
+            <div class="box" id="block-5"></div>
+            <div class="box" id="block-6"></div>
+            <div class="box" id="block-7"></div>
+            <div class="box" id="block-8"></div>
+            <div class="box" id="block-9"></div>
+
+            <div class="scoreboard">
+                <h5>Placar :</h5>
+                <div id="scoreboard-container">
+                    
+                    <span class="score-box">
+                        <span id="x-scoreboard">X</span>: 
+                        <span id="scoreboard-1">0</span>
+                    </span>
+                </div>
+                <div id="scoreboard-container">
+                    <span class="score-box">
+                        <span id="o-scoreboard"></span> :
+                        <span id="scoreboard-2">0</span>
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+    
+    </div>
+
+
+
+    <div class="hide">
+        <div class="symbol-x">X</div>
+        <div class="symbol-o"></div>
+        
+    </div>
+
+    <div id="message" class="hide">
+        <p>Teste</p>
+    </div>
+   
+    <script src="js/index.js"></script>
+</body>
+</html>
